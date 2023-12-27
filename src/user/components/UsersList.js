@@ -1,13 +1,17 @@
 import React from "react";
 
 import UserItem from "./UserItem";
+import Card from "../../shared/components/UIElements/Card";
 import "./UsersList.css";
 
+// Props in UserList is a list of user's information (UserItem)
 const UsersList = (props) => {
   if (props.items.length === 0) {
     return (
       <div className="center">
+        <Card>
         <h2>No users found.</h2>
+        </Card>
       </div>
     );
   }
