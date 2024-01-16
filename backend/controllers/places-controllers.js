@@ -1,3 +1,4 @@
+const fs = require("fs")
 const { v4: uuid } = require("uuid");
 const { validationResult } = require("express-validator");
 const mongoose = require("mongoose");
@@ -81,8 +82,7 @@ const createPlace = async (req, res, next) => {
     description,
     address,
     location: coordinates,
-    image:
-      "https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.88847xw:1xh;center,top&resize=1200:*",
+    image: req.file.path,
     creator,
   });
 
@@ -179,6 +179,8 @@ const deletePlace = async (req, res, next) => {
     return next(error);
   }
 
+  const imagePath = place.image
+
   try {
     const sess = await mongoose.startSession();
     sess.startTransaction();
@@ -193,6 +195,10 @@ const deletePlace = async (req, res, next) => {
     );
     return next(error);
   }
+
+  fs.unlink(imagePath, err => {
+    console.log(err);
+  })
 
   res.status(200).json({ message: "Deleted place!" });
 };
