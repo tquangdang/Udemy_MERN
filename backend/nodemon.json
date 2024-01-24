@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "tquangdang",
+        "DB_PASSWORD": "Vietnam20021",
+        "DB_NAME": "mern",
+        "GOOGLE_API_KEY": "AIzaSyBlAJe7uJd7ZuwUNbsy4yu9eFG6Y1WNReY",
+        "JWT_KEY": "supersecret_dont_share"
+    }
+}

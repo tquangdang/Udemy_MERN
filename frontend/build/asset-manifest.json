@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33b97b24.css",
+    "main.js": "/static/js/main.e661f858.js",
+    "static/css/542.8e10ed57.chunk.css": "/static/css/542.8e10ed57.chunk.css",
+    "static/js/542.09c8d81c.chunk.js": "/static/js/542.09c8d81c.chunk.js",
+    "static/css/45.8d74b0a3.chunk.css": "/static/css/45.8d74b0a3.chunk.css",
+    "static/js/45.6bd0aec5.chunk.js": "/static/js/45.6bd0aec5.chunk.js",
+    "static/css/743.323a7c07.chunk.css": "/static/css/743.323a7c07.chunk.css",
+    "static/js/743.884f5e49.chunk.js": "/static/js/743.884f5e49.chunk.js",
+    "static/css/925.8278f32b.chunk.css": "/static/css/925.8278f32b.chunk.css",
+    "static/js/925.8db0b449.chunk.js": "/static/js/925.8db0b449.chunk.js",
+    "static/css/993.0189cf6b.chunk.css": "/static/css/993.0189cf6b.chunk.css",
+    "static/js/993.e87afadd.chunk.js": "/static/js/993.e87afadd.chunk.js",
+    "static/js/545.008654d9.chunk.js": "/static/js/545.008654d9.chunk.js",
+    "index.html": "/index.html",
+    "main.33b97b24.css.map": "/static/css/main.33b97b24.css.map",
+    "main.e661f858.js.map": "/static/js/main.e661f858.js.map",
+    "542.8e10ed57.chunk.css.map": "/static/css/542.8e10ed57.chunk.css.map",
+    "542.09c8d81c.chunk.js.map": "/static/js/542.09c8d81c.chunk.js.map",
+    "45.8d74b0a3.chunk.css.map": "/static/css/45.8d74b0a3.chunk.css.map",
+    "45.6bd0aec5.chunk.js.map": "/static/js/45.6bd0aec5.chunk.js.map",
+    "743.323a7c07.chunk.css.map": "/static/css/743.323a7c07.chunk.css.map",
+    "743.884f5e49.chunk.js.map": "/static/js/743.884f5e49.chunk.js.map",
+    "925.8278f32b.chunk.css.map": "/static/css/925.8278f32b.chunk.css.map",
+    "925.8db0b449.chunk.js.map": "/static/js/925.8db0b449.chunk.js.map",
+    "993.0189cf6b.chunk.css.map": "/static/css/993.0189cf6b.chunk.css.map",
+    "993.e87afadd.chunk.js.map": "/static/js/993.e87afadd.chunk.js.map",
+    "545.008654d9.chunk.js.map": "/static/js/545.008654d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b97b24.css",
+    "static/js/main.e661f858.js"
+  ]
+}
